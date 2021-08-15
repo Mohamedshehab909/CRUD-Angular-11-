@@ -1,0 +1,14 @@
+<div class=" bg-info mx-auto w-50 p-4">
+  <label class=" mb-2">Name</label>
+  <input [(ngModel)]="student.name" type="text" class=" form-control" placeholder="Enter your name">
+  <label class=" mb-2">Age</label>
+  <input [(ngModel)]="student.age" type="text" class=" form-control" placeholder="Enter your age">
+  <label class=" mb-2">City</label>
+  <input [(ngModel)]="student.address.city" type="text" class=" form-control" placeholder="Enter your city">
+  <label class=" mb-2">Street</label>
+  <input [(ngModel)]="student.address.street" type="text" class=" form-control" placeholder="Enter your Street">
+  <div class=" text-center py-3">
+    <button class=" btn btn-primary " (click) = "update()">Update</button>
+  </div>
+  <a  routerLink = "/users" class="btn btn-success">Back to list</a>
+</div>

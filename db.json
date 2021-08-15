@@ -1,0 +1,49 @@
+{
+  "Users": [
+    {
+      "id": 2,
+      "name": "Mohamed",
+      "age": 22,
+      "address": {
+        "city": "Cairo",
+        "street": "Ain shams"
+      }
+    },
+    {
+      "name": "Mona",
+      "age": "22",
+      "address": {
+        "city": "Mansoura",
+        "street": "10 st"
+      },
+      "id": 4
+    },
+    {
+      "name": "Hossam",
+      "age": "23",
+      "address": {
+        "city": "Mansoura",
+        "street": "10 st"
+      },
+      "id": 5
+    },
+    {
+      "name": "Merna",
+      "age": "24",
+      "address": {
+        "city": "cairo",
+        "street": "15 st"
+      },
+      "id": 6
+    },
+    {
+      "name": "Ahmed ",
+      "age": "26",
+      "address": {
+        "city": "Menofia",
+        "street": "20 st"
+      },
+      "id": 7
+    }
+  ]
+}
